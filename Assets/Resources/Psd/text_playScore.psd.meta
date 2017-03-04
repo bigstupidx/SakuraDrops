@@ -14,12 +14,12 @@ TextureImporter:
     21300014: text_playScore_7
     21300016: text_playScore_8
     21300018: text_playScore_9
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -31,10 +31,8 @@ TextureImporter:
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 7
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
@@ -45,9 +43,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
@@ -55,17 +51,52 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings:
-  - buildTarget: iPhone
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: 33
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: text_playScore_0
+    - serializedVersion: 2
+      name: text_playScore_0
       rect:
         serializedVersion: 2
         x: 16
@@ -76,7 +107,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_1
       rect:
         serializedVersion: 2
         x: 46
@@ -87,7 +120,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_2
       rect:
         serializedVersion: 2
         x: 71
@@ -98,7 +133,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_3
       rect:
         serializedVersion: 2
         x: 99
@@ -109,7 +146,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_4
       rect:
         serializedVersion: 2
         x: 124
@@ -120,7 +159,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_5
       rect:
         serializedVersion: 2
         x: 152
@@ -131,7 +172,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_6
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_6
       rect:
         serializedVersion: 2
         x: 180
@@ -142,7 +185,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_7
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_7
       rect:
         serializedVersion: 2
         x: 206
@@ -153,7 +198,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_8
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_8
       rect:
         serializedVersion: 2
         x: 233
@@ -164,7 +211,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: text_playScore_9
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: text_playScore_9
       rect:
         serializedVersion: 2
         x: 261
@@ -175,8 +224,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
-  spritePackingTag: 
+  spritePackingTag: UI
   userData: 
   assetBundleName: 
   assetBundleVariant: 
